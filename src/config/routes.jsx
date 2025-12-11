@@ -126,8 +126,7 @@ const routes = [
         path: '*',
         element: NotFound,
         name: 'Not Found',
-        header: SimpleHeader,
-        footer: SimpleFooter
+        
     }
 ]
 

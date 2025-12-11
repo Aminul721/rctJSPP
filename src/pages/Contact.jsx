@@ -10,6 +10,8 @@ const Contact = () => {
     message: ''
   })
 
+  const addressQuery = encodeURIComponent('Udakhali Ideal Girls High School, Udakhali, Bangladesh')
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -37,7 +39,7 @@ const Contact = () => {
         <div className="container">
           <h1 className="page-title">Get In Touch</h1>
           <p className="page-subtitle">
-            We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+            {`We'd love to hear from you. Send us a message and we'll respond as soon as possible.`}
           </p>
         </div>
       </section>
@@ -48,8 +50,8 @@ const Contact = () => {
             <div className="contact-info">
               <h2>Contact Information</h2>
               <p className="contact-description">
-                Feel free to reach out to us through any of these channels. 
-                We're here to help and answer any questions you may have.
+                {`Feel free to reach out to us through any of these channels. 
+                We're here to help and answer any questions you may have.`}
               </p>
 
               <div className="contact-details">
@@ -169,9 +171,14 @@ const Contact = () => {
       <section className="map-section">
         <div className="container">
           <h2 className="section-title">Find Us</h2>
-          <div className="map-placeholder">
-            <p>📍 Interactive Map</p>
-            <p className="map-note">Map integration can be added here (Google Maps, Mapbox, etc.)</p>
+          <div className="map-embed">
+            <iframe
+              title="Our Location"
+              src={`https://www.google.com/maps?q=${addressQuery}&output=embed`}
+              loading="lazy"
+              allowFullScreen
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </section>
