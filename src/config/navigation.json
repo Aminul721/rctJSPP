@@ -1,0 +1,60 @@
+[
+  {
+    "id": "home",
+    "label": "Home",
+    "path": "/"
+  },
+  {
+    "id": "about",
+    "label": "About",
+    "path": "/about"
+  },
+  {
+    "id": "services",
+    "label": "Services",
+    "children": [
+      {
+        "id": "all-services",
+        "label": "All Services",
+        "path": "/services"
+      },
+      {
+        "id": "web-development",
+        "label": "Web Development",
+        "path": "/web-development"
+      },
+      {
+        "id": "mobile-apps",
+        "label": "Mobile Apps",
+        "path": "/mobile-apps"
+      },
+      {
+        "id": "ui-ux",
+        "label": "UI/UX Design",
+        "path": "/ui-ux"
+      },
+      {
+        "id": "consulting",
+        "label": "Consulting",
+        "path": "/consulting"
+      },
+      {
+        "id": "support",
+        "label": "Support",
+        "path": "/support"
+      }
+    ]
+  },
+  {
+    "id": "portfolio",
+    "label": "Portfolio",
+    "path": "/portfolio"
+  },
+  {
+    "id": "contact",
+    "label": "Contact",
+    "path": "/contact"
+  }
+]
+
+
