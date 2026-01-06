@@ -1,4 +1,3 @@
-import './LegalPage.css'
 
 const PrivacyPolicy = () => {
   return (
@@ -89,13 +88,13 @@ const PrivacyPolicy = () => {
             <p>Our website may contain links to third-party websites. We are not responsible for the 
             privacy practices of these external sites. We encourage you to read their privacy policies.</p>
 
-            <h2>8. Children's Privacy</h2>
+            <h2>8. {`Children's Privacy`}</h2>
             <p>Our services are not intended for individuals under the age of 18. We do not knowingly 
             collect personal information from children.</p>
 
             <h2>9. Changes to This Privacy Policy</h2>
             <p>We may update this Privacy Policy from time to time. We will notify you of any changes 
-            by posting the new Privacy Policy on this page and updating the "Last updated" date.</p>
+            by posting the new Privacy Policy on this page and updating the {`"Last updated"`} date.</p>
 
             <h2>10. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy, please contact us:</p>

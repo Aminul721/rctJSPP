@@ -1,4 +1,3 @@
-import './LegalPage.css'
 
 const CookiePolicy = () => {
   return (
@@ -44,7 +43,7 @@ const CookiePolicy = () => {
 
             <h3>Analytics Cookies</h3>
             <p>These cookies help us understand how visitors interact with our website by collecting 
-            and reporting information anonymously. We use this information to improve our website's 
+            and reporting information anonymously. We use this information to improve our {`website's `}
             functionality and user experience.</p>
 
             <h3>Functional Cookies</h3>

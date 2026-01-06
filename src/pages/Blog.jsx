@@ -1,4 +1,3 @@
-import './Blog.css'
 
 const Blog = () => {
   const blogPosts = [

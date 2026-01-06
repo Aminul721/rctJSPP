@@ -1,4 +1,3 @@
-import './LegalPage.css'
 
 const TermsOfService = () => {
   return (
@@ -26,7 +25,7 @@ const TermsOfService = () => {
             please do not use our services.</p>
 
             <h2>2. Use License</h2>
-            <p>Permission is granted to temporarily access the materials on YourBrand's website for 
+            <p>Permission is granted to temporarily access the materials on {`YourBrand's`} website for 
             personal, non-commercial transitory viewing only. This is the grant of a license, not a 
             transfer of title, and under this license you may not:</p>
             <ul>
@@ -34,7 +33,7 @@ const TermsOfService = () => {
               <li>Use the materials for any commercial purpose or for any public display</li>
               <li>Attempt to reverse engineer any software contained on the website</li>
               <li>Remove any copyright or other proprietary notations from the materials</li>
-              <li>Transfer the materials to another person or "mirror" the materials on any other server</li>
+              <li>Transfer the materials to another person or {`"mirror" the materials on any other server`}</li>
             </ul>
 
             <h2>3. Service Description</h2>
@@ -56,7 +55,7 @@ const TermsOfService = () => {
             <ul>
               <li>Payment is due according to the terms specified in your service agreement</li>
               <li>All fees are non-refundable unless otherwise stated</li>
-              <li>We reserve the right to change our pricing with 30 days' notice</li>
+              <li>We reserve the right to change our pricing with 30 {`days' notice.`}</li>
               <li>Late payments may result in service suspension</li>
             </ul>
 

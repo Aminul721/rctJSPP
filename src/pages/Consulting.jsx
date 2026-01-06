@@ -1,4 +1,3 @@
-import './ServicePage.css'
 
 const Consulting = () => {
   return (
@@ -61,7 +60,7 @@ const Consulting = () => {
             <div className="service-sidebar">
               <div className="sidebar-card">
                 <h3>Get Started</h3>
-                <p>Need expert advice? Let's discuss how we can help your business.</p>
+                <p>Need expert advice? {`Let's discuss how we can help your business.`}</p>
                 <a href="/contact" className="sidebar-button">Contact Us</a>
               </div>
               <div className="sidebar-card">

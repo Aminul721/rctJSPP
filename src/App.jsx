@@ -1,10 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import routes from './config/routes'
-import './App.css'
 
 function App() {
   return (
-    <Router>
+    <Router future={{ v7_relativeSplatPath: true }}>
       <Routes>
         {routes.map((route) => {
           const PageComponent = route.element

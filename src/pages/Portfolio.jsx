@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import './Portfolio.css'
 
 const Portfolio = () => {
   const [activeFilter, setActiveFilter] = useState('all')

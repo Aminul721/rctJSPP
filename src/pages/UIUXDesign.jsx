@@ -1,4 +1,3 @@
-import './ServicePage.css'
 
 const UIUXDesign = () => {
   return (

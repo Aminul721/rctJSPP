@@ -1,4 +1,3 @@
-import './ServicePage.css'
 
 const Support = () => {
   return (
@@ -61,7 +60,7 @@ const Support = () => {
             <div className="service-sidebar">
               <div className="sidebar-card">
                 <h3>Get Started</h3>
-                <p>Need ongoing support? Let's discuss a support plan for your business.</p>
+                <p>Need ongoing support? {`Let's discuss a support plan for your business.`}</p>
                 <a href="/contact" className="sidebar-button">Contact Us</a>
               </div>
               <div className="sidebar-card">

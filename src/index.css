@@ -1,3 +1,21 @@
+@import './App.css';
+@import './components/Header.css';
+@import './components/HeroSection.css';
+@import './components/FeaturesSection.css';
+@import './components/Footer.css';
+@import './components/SimpleHeader.css';
+@import './components/SimpleFooter.css';
+@import './layouts/Layout.css';
+@import './pages/Home.css';
+@import './pages/Services.css';
+@import './pages/ServicePage.css';
+@import './pages/Portfolio.css';
+@import './pages/Contact.css';
+@import './pages/About.css';
+@import './pages/Blog.css';
+@import './pages/LegalPage.css';
+@import './pages/NotFound.css';
+
 :root {
   --color-bg: #ffffff;
   --color-text: #213547;

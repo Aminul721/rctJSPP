@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import './Layout.css'
 
 const SimpleLayout = ({ children }) => {
     const currentYear = new Date().getFullYear()

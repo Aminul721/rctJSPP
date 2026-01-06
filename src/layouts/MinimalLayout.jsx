@@ -1,4 +1,3 @@
-import './Layout.css'
 
 const MinimalLayout = ({ children }) => {
     return (

@@ -1,4 +1,3 @@
-import './ServicePage.css'
 
 const MobileApps = () => {
   return (
@@ -61,7 +60,7 @@ const MobileApps = () => {
             <div className="service-sidebar">
               <div className="sidebar-card">
                 <h3>Get Started</h3>
-                <p>Have an app idea? Let's bring it to life on mobile platforms.</p>
+                <p>Have an app idea? {`Let's bring it to life on mobile platforms.`}</p>
                 <a href="/contact" className="sidebar-button">Contact Us</a>
               </div>
               <div className="sidebar-card">
